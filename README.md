@@ -23,10 +23,3 @@ Car price prediction is a challenging and exciting research area in machine lear
 2. **Feature Engineering**: Identify relevant features and preprocess the data.
 3. **Model Training**: Implement machine learning models to predict car prices.
 4. **Evaluation**: Evaluate the model's performance and fine-tune as needed.
-
-# Make predictions
-predictions = model.predict(X_test)
-
-# Evaluate the model
-mse = mean_squared_error(y_test, predictions)
-print(f'Mean Squared Error: {mse}')
